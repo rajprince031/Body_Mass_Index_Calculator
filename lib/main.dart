@@ -15,8 +15,8 @@ class BMI_v2 extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      //home: BMI_SplashScreen(),
-      home: BMI_v2_FrontPage(),
+      home: BMI_SplashScreen(),
+
     );
   }
 }
