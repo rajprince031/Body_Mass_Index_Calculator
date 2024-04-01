@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:bmi_2/mainv2.dart';
+import 'package:bmi_2/main.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
