@@ -118,7 +118,7 @@ class _BMI_FrontPage extends State<BMI_v2_FrontPage> {
     return Stack(
       children: [
         Container(
-          decoration: const BoxDecoration(
+          decoration: BoxDecoration(
               image: DecorationImage(
             image: AssetImage('images/bgImage.jpg'),
             fit: BoxFit.cover,
@@ -500,7 +500,7 @@ class _row2 extends StatelessWidget {
             child: Text('$text1',
                 style: TextStyle(
                   fontFamily: 'text3',
-                  fontSize: wid * 0.035,
+                  fontSize: wid * 0.03,
                   fontWeight: FontWeight.w500,
                 )),
           ),
@@ -509,7 +509,7 @@ class _row2 extends StatelessWidget {
         Text('$text2',
             style: TextStyle(
               fontFamily: 'prince',
-              fontSize: wid * 0.03,
+              fontSize: wid * 0.025,
             )),
       ]),
     );
