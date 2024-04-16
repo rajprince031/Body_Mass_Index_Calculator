@@ -120,7 +120,7 @@ class _BMI_FrontPage extends State<BMI_v2_FrontPage> {
         Container(
           decoration: BoxDecoration(
               image: DecorationImage(
-            image: AssetImage('images/bgImage.jpg'),
+            image: AssetImage('images/img.png'),
             fit: BoxFit.cover,
           )),
         ),
